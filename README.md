@@ -1,6 +1,7 @@
 # Projet-Sass
 
-![Aperçu du site "Toumba Lena"](sass.jpg)
+<img src="sass.jpg" alt="Aperçu du site 'Toumba Lena'" width="200">
+
 
 Ce dépôt GitHub contient le code pour mon projet Sass, où j'ai développé un site web utilisant Sass pour la gestion des styles.
 
