@@ -1,5 +1,7 @@
 # Projet-Sass
 
+![Aperçu du site "Toumba Lena"](sass.jpg)
+
 Ce dépôt GitHub contient le code pour mon projet Sass, où j'ai développé un site web utilisant Sass pour la gestion des styles.
 
 ## Description
