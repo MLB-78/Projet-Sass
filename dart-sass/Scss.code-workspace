@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Scss",
+			"path": "../../../../../laragon/www/Scss"
+		},
+		{
+			"name": "dart-sass",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

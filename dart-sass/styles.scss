@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary-color: #FF69B4;
+$secondary-color: #87CEEB;
+$white-color: #ffffff;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('logi.jpg'); /* Chemin relatif vers votre image */
+    background-size: cover; /* Pour couvrir toute la partie background */
+    background-position: center; /* Pour centrer l'image */
+    background-repeat: no-repeat; /* Pour ne pas répéter l'image */
+}
+
+header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: $primary-color;
+        margin-left: 20px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                margin-right: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: $primary-color;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+   
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+
+    h1 {
+        font-size: 36px;
+        color: $primary-color;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        color: $secondary-color;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: $white-color;
+        text-decoration: none;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: $secondary-color;
+        }
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
